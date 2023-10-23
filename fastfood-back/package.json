@@ -1,0 +1,37 @@
+{
+  "name": "fast-food",
+  "version": "1.0.0",
+  "description": "Fast Food Restaurant Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchitg21/Restaurant-Management-System.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "twilio",
+    "rest",
+    "api",
+    "fast-food-restaurant-management-system"
+  ],
+  "author": "Sanchit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.2",
+    "sequelize": "^6.33.0",
+    "twilio": "^4.19.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.20",
+    "nodemon": "^3.0.1"
+  }
+}
